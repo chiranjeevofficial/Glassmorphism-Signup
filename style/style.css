@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #00ff87, #60efff);
+}
+
+.outer-box .inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top left, #ffffffa9, #ffffff09);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #00d170;
+    z-index: 2;
+}
+
+.outer-box .inner-box header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.outer-box .inner-box header p {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.outer-box .inner-box main {
+    margin: 20px 0;
+}
+
+.outer-box .inner-box main p {
+    margin: 20px 0;
+}
+
+.outer-box .inner-box main p label {
+    display: block;
+    /* margin: 10px 0; */
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.outer-box .inner-box main p input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: #ffffff09;
+    border-radius: 4px;
+    border: 1px solid #55555555;
+}
+
+.outer-box .inner-box main p input:focus {
+    outline: none;
+}
+
+.outer-box .inner-box main p input[type="submit"] {
+    color: white;
+    border: none;
+    background-color: #00ff87;
+    cursor: pointer;
+}
+
+.outer-box .inner-box main p input[type="submit"]:hover {
+    background-color: #00d170;
+}
+
+.outer-box .inner-box footer p {
+    color: #555;
+    text-align: center;
+}
+
+.outer-box .inner-box footer p a {
+    color: #00ff87;
+}
+
+.outer-box .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.outer-box .c1 {
+    top: 100px;
+    left: 50px;
+}
+
+.outer-box .c2 {
+    bottom: 100px;
+    right: 50px;
+}
